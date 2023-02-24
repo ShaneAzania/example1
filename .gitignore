@@ -1,0 +1,30 @@
+# OS-specific files
+**/.DS_Store
+.Trashes
+
+# in TERMINAL TO GET RID OF .DS_Store:
+# find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+
+
+# production 
+/build
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# in TERMINAL TO GET RID OF node_modules
+# git rm -r --cached node_modules
+
+# dependencies
+node_modules
+node_modules/**
+**/node_modules
+**/node_modules/**
+/.pnp
+.pnp.js
+*.pack
+*.pack
+node_modules/.cache/.eslintcache
+*.pack
