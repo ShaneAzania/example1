@@ -28,6 +28,7 @@ export const NavLinksContainer = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
+	margin: 0 auto;
 `;
 
 export const Navigation = styled.div`

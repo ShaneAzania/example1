@@ -24,9 +24,9 @@ function Nav({ links }) {
 							{text.toLowerCase()}
 						</NavLinks>
 					))}
-					<CartIcon onClick={handleCartIconClick} />
-					{/* isCartOpen ? <CartDropdown /> : null */}
 				</NavLinksContainer>
+				<CartIcon onClick={handleCartIconClick} />
+				{/* isCartOpen ? <CartDropdown /> : null */}
 			</Navigation>
 			<Outlet />
 		</Fragment>
