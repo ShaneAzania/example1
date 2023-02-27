@@ -1,0 +1,45 @@
+.hero-container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+
+	h1.title {
+		display: inline-block;
+		position: absolute;
+		top: 1.5em;
+
+		padding: 0;
+		margin: 0;
+
+		font-size: 6em;
+
+		&:first-of-type {
+			left: 3em;
+			z-index: 0;
+
+			margin-right: 0.2em;
+		}
+		&:nth-of-type(2) {
+			left: 5.4em;
+			z-index: 2;
+			bottom: 13em;
+
+			margin-right: 0.2em;
+		}
+	}
+
+	.product-container {
+		display: flex;
+		justify-content: space-between;
+		position: relative;
+		top: 1em;
+		z-index: 1;
+
+		width: 95%;
+
+		margin: 0 auto;
+	}
+}
