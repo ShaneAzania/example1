@@ -1,11 +1,15 @@
 .ProductCard {
 	position: relative;
-	width: 19em;
+	width: 16em;
 	height: 24em;
 
 	&:nth-child(1),
 	&:nth-child(3) {
-		top: 7em;
+		top: 4em;
+	}
+	&:nth-child(2) {
+		height: 27em;
+		top: 1.5em;
 	}
 
 	.details {
@@ -25,10 +29,11 @@
 			}
 		}
 	}
+
 	.product-image {
 		height: 100%;
-		background-color: rgba(0, 157, 255, 0.553);
+		background-color: rgba(0, 0, 0, 0.553);
 
-		margin-bottom: 1em 0;
+		// margin-bottom: 1em 0;
 	}
 }

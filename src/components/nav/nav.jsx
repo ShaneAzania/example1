@@ -17,7 +17,7 @@ function Nav({ links }) {
 	return (
 		<Fragment>
 			<Navigation>
-				<LogoContainer to='/'>LOGO{/*}<Logo className='logo' />{*/}</LogoContainer>
+				<LogoContainer to='/'>GOUGH NUTS{/*}<Logo className='logo' />{*/}</LogoContainer>
 				<NavLinksContainer>
 					{links.map(({ text, to }) => (
 						<NavLinks key={to} to={to}>

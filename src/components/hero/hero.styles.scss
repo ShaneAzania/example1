@@ -6,10 +6,13 @@
 	height: 100vh;
 	overflow: hidden;
 
+	h1 {
+		transform: scaleY(1.5);
+	}
 	h1.title {
 		display: inline-block;
 		position: absolute;
-		top: 1.5em;
+		top: 1em;
 
 		padding: 0;
 		margin: 0;
@@ -20,14 +23,13 @@
 			left: 3em;
 			z-index: 0;
 
-			margin-right: 0.2em;
+			// margin-right: 0.3em;
 		}
 		&:nth-of-type(2) {
-			left: 5.4em;
+			left: 5.7em;
 			z-index: 2;
-			bottom: 13em;
 
-			margin-right: 0.2em;
+			// margin-right: 0.2em;
 		}
 	}
 
@@ -38,7 +40,7 @@
 		top: 1em;
 		z-index: 1;
 
-		width: 95%;
+		width: 90%;
 
 		margin: 0 auto;
 	}

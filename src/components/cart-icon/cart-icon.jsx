@@ -1,4 +1,4 @@
-import { CartIconContainer, ShoppingIcon, ItemCount } from "./cart-icon.styles.jsx";
+import { CartIconContainer, ShoppingIcon, ItemCount } from './cart-icon.styles.jsx';
 
 //redux
 // import { useSelector } from "react-redux";
@@ -17,7 +17,7 @@ const CartIcon = ({ onClick, children }) => {
 	return (
 		<CartIconContainer onClick={onClick}>
 			<ShoppingIcon />
-			<ItemCount>{/*cartCount*/}</ItemCount>
+			<ItemCount>{7 /*cartCount*/}</ItemCount>
 		</CartIconContainer>
 	);
 };
