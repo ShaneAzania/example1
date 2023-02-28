@@ -9,7 +9,9 @@ const ProductCard = ({ product, index }) => {
 		<Fragment>
 			{index % 2 !== 0 ? (
 				<div className='ProductCard'>
-					<img className='product-image' alt='product' src={img} />
+					<div className='image-box'>
+						<img className='product-image' alt='product' src={img} />
+					</div>
 					<div className='details'>
 						<div className='identity'>
 							<p className='id'>{id}</p>
@@ -27,7 +29,9 @@ const ProductCard = ({ product, index }) => {
 						</div>
 						<p className='price'>${price}</p>
 					</div>
-					<img className='product-image' alt='product' src={img} />
+					<div className='image-box'>
+						<img className='product-image' alt='product' src={img} />
+					</div>
 				</div>
 			)}
 		</Fragment>
